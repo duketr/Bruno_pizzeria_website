@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&family=Slabo+27px&display=swap');
+
+.wrapper {
+ 	background: url(https://images.creativemarket.com/0.1.0/ps/7353029/1820/1213/m1/fpnw/wm1/kiwikc0o9yejexpzwzylxsuy30gsti4hjy5uo9ctmct07xumbwzebvxnoipkfdqc-.jpg?1574572852&s=e825fe743ce9f7c0252aac0e13870e92) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  margin-bottom: 10px;
+		}
+.navbar{
+  margin: 20px 0px 30px 0px;
+  height: 65px;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+}
+.logo{
+  width: 120px;
+  height: auto;
+  padding: 0px 10px 10px 0px;
+  
+}
+.navbar ul{
+  float: right;
+  margin-right: 20px;
+  margin-top: 7px;
+}
+.navbar ul li{
+  life-style: none;
+  margin-right: 8px;
+  margin-top: 0px;
+  display: inline-block;
+  line-height: 50px
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #E6E6FA;
+  font-size: 18px;
+  padding: 6px 13px;
+  font-family: Comfortaa, sans-serif; 
+}
+
+.navbar ul li a:hover{
+  background: white;
+  border-radius: 2px;
+	transition: background 0.6s;
+	color: black;
+}
+.box {
+	position: absolute;
+    width: 100%;
+	padding-top: 0px;
+}
+.pic {
+    width: 70.1%;
+    margin-left: 0px;
+    margin-top: 200px;
+  
+}
+.headertext {
+    font-size: 32px;
+    line-height: 1.5;
+    line-style: italic;
+    letter-spacing: 1px;
+    max-width: 1280px;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Slabo 13px', serif;
+  padding-top: 150px;
+	margin-left: 170px;
+	float: left;
+}
+.bodytext 	{
+	color: black;
+  font-size: 17px;
+  font-weight: light;
+  line-height: 2;
+  margin-left: 38%;
+  margin-top: 20px;
+  display: block;
+  font-family: 'Slabo 13px', serif;
+	padding-left: 25%;
+  padding-top: 26%;
+}
+p
+		{
+			color: white;
+		}
+		h3
+		{
+			position: relative;
+			top: -250px;
+			left: -40px;
+		}

@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*.wrapper {
+  background: url(https://images.creativemarket.com/0.1.0/ps/7353029/1820/1213/m1/fpnw/wm1/kiwikc0o9yejexpzwzylxsuy30gsti4hjy5uo9ctmct07xumbwzebvxnoipkfdqc-.jpg?1574572852&s=e825fe743ce9f7c0252aac0e13870e92);
+  background-size: cover;
+  background-position: center bottom;
+  height: 750px;
+  weight: 100%;
+  margin-bottom: 10px;
+		}*/
+
+.header h1{
+  color: #F8F8FF;
+  font-size: 75px;
+  font-weight: normal;
+  width: 600px;
+  padding-left: 580px;
+  padding-top: 155px;
+  line-height: 0px;
+  text-align: center;
+}
+.menu{
+  padding-right: 30%;
+  margin-top: 56px;
+  display: block;
+  padding-left: 30%;
+}
+
+div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 11px;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}

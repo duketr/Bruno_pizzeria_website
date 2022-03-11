@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Order</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/pizza.css" rel="stylesheet" type="text/css">
+	<link href="css/about_us.css" rel="stylesheet" type="text/css">
+</head>
+<!--Start Body-->
+<body>
+<!--Start Navigtion Bar-->
+<nav class="navbar">
+		<img class="logo" alt="ahgsv" href src="https://menufyproduction.imgix.net/637111525335646325+131763.png?auto=compress,format&h=1080&w=1920&fit=max">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about_us.html">About us</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="registration.html">Registration</a></li>
+			<li><a class="current" href="order.html">Order</a></li>
+			<li><a href="order.html">Features</a></li><!--All the features are implemented in the order.html file-->
+		</ul>
+	</nav>
+<!--End Navigation-->
+	<div class="container">
+	<!-- Start header -->
+    <header>
+      <div class="primary_header">
+        <h1 class="title"> BRUNO'S PIZZERIA <aside class="left_article"> </aside>
+	</h1>
+    <!-- End header -->
+	<!-- Start header -->
+		
+      </div>
+	 </header>
+		</div>	
+	<main></main>
+<!--Start Order Form-->
+	<div>
+		<form class="fieldset" id="ordForm" method="post" action="http://mercury.swin.edu.au/it000000/cos10005/regtest.php">
+				<div id="yourOrder">
+				
+<!--Start Address Form-->
+				</div>
+				<div id="delipickup">
+					<label for="deli">Delivery</label>
+						<input type="radio" class="radiobox" name="ship" id="deli" value="deli" onClick="EnableDisableTextBox()">
+					<label for="pickup">Pickup</label>
+						<input type="radio" class="radiobox" name="ship" id="pickup" value="pickup" onClick="EnableDisableTextBox()"><br>
+				</div>
+				
+						<input type="text" id="deAdd" placeholder="Delivery address" disabled="disabled"><br>
+						<input class="inputBox" type="text" id="biAdd" placeholder="Billing address"><br>
+						<input type="text" class="inputBox" id="postcode" maxlength="4" placeholder="Postcode">
+				
+				<div class="radioSec">	
+					<label for="fulfill">Same as delivery address</label>
+						<input type="checkbox" id="fulfill" name="fulfill" onchange="addressFill()">
+				</div>
+				
+						<input class="inputBox" type="text" id="conNum" placeholder="Contact number"><br>
+						<input class="inputBox" id="email" type="email" placeholder="Email for receipt" ><br>
+<!--End Address Form-->
+<!--Start Payment method-->
+				<div class="radioSec">
+					<label for="payOnPick">Pay on pickup</label>
+						<input type="radio" class="radiobox" name="payment" id="payOnPick" value="COD" onClick="EnableDisableCredit()">
+					<label for="payOn">Pay online</label>
+						<input type="radio" class="radiobox" name="payment" id="payOn" value="Online" onClick="EnableDisableCredit()"><br>
+				</div>
+				
+				<div id="creditSelect">
+					<span id="spanCho" color: #B8B8B8; margin-top: 50px; margin-left: 100px>Choose your credit card:</span><br>
+						<label>
+							<input id="visa" class="creCard" type="radio" name="creCard" value="visa">
+							<img src="images/visa.png" alt="visa" width="160px" height="160px">
+						</label>
+					
+						<label>
+							<input id="master" class="creCard" type="radio" name="creCard" value="master">
+							<img src="images/mastercard.png" alt="masterclass" width="160px" height="160px">
+						</label>
+						
+						<label>
+							<input id="ameEx" class="creCard" type="radio" name="creCard" value="ameEx">
+							<img src="images/american-express.png" alt="american-express" width="160px" height="160px">
+						</label>
+	
+				</div>
+				<input type="text" class="inputBox" id="creNum" placeholder="Credit card information" disabled="true"><br>
+				<button id="submit" type="submit">Submit</button>
+				<button id="reset" type="reset">Reset</button>
+			<img id="piz_ord" src="images/pic_ord.jpg" alt="picord">
+<!--End Payment method-->
+		</form>
+	</div>
+<!--End Order Form-->
+</body>
+<!--End Body-->
+	<script src="js/order.js" type="text/javascript"></script>
+	<script src="js/order1.js" type="text/javascript"></script>
+	<script src="js/order2.js" type="text/javascript"></script>
+	<script src="js/order3.js" type="text/javascript"></script>
+</html>

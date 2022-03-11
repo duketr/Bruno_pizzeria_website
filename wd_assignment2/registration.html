@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registration</title>
+	<link href="css/pizza.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/about_us.css" rel="stylesheet" type="text/css">
+</head>
+	
+<!--Start Body-->
+<body>
+<!--Start Navigation Bar-->
+	<nav class="navbar">
+		<img class="logo" alt="ahgsv" href src="https://menufyproduction.imgix.net/637111525335646325+131763.png?auto=compress,format&h=1080&w=1920&fit=max">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about_us.html">About us</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a class="current" href="registration.html">Registration</a></li>
+			<li><a href="order.html">Order</a></li>
+			<li><a href="order.html">Features</a></li><!--All the features are implemented in the order.html file-->
+		</ul>
+	</nav>
+<!--End Navigation Bar-->
+	
+	<div class="container">
+	<!-- Start header -->
+    <header>
+      <div class="primary_header">
+        <h1 class="title"> BRUNO'S PIZZERIA <aside class="left_article"> </aside>
+	</h1>
+    <!-- End header -->
+	<!-- Start header -->
+		
+      </div>
+	 </header>
+		</div>	
+	
+<!--Start Form-->
+<!--Start Text Area-->
+	<form class="fieldset" id="regform" method="post" action="http://mercury.swin.edu.au/it000000/cos10005/regtest.php">
+		<input id="firstname" type="text" placeholder="First name">
+		<input id="lastname" type="text" placeholder="Last name">
+		
+			<input placeholder="Username" id="username" class="inputBox" type="text"><br>
+			<input placeholder="Password" id="password1" class="inputBox" type="password"><br>
+			<input placeholder="Retype password" id="password2" class="inputBox" type="password"><br>
+			<input class="inputBox" id="email" type="email" placeholder="Email address" ><br>
+<!--End Text Area-->
+<!--Start Radio Box-->
+		<div class="radioSec">
+			<span>Gender: </span>
+				<label for="male">Male</label>
+					<input class="radiobox" type="radio" name="gender" id="male" value="male">
+				<label for="female">Female</label>
+					<input class="radiobox" type="radio" name="gender" id="female" value="female"><br>
+		</div>
+<!--End Radio Box-->
+<!--Start Checkbox-->
+		<div>
+		<span>How did you hear about us:</span><br>
+		<input class="checkbox" type="checkbox" id="ex1" value="SoMe" name="method1">
+		<label for="ex1">Social media</label><br>
+		<input class="checkbox" type="checkbox" id="ex2" value="Rela" name="method2">
+		<label for="ex2">Relatives</label><br>
+		<input class="checkbox" type="checkbox" id="ex3" value="Poster" name="method3">
+		<label for="ex3">Poster</label><br>
+		<input class="checkbox" type="checkbox" id="ex4" value="Google" name="method4">
+		<label for="ex4">Google</label><br>
+		<input class="checkbox" type="checkbox" id="ex5" value="Other" name="method5" checkeds>
+		<label for="ex5">Other</label><br>
+		</div>
+<!--End Checkbox-->
+<!--Start Select-->
+		<label id="lbfavPiz" for="favPiz">Choose your favorite pizza</label>
+		<select id="favPiz" name="favPiz" >
+			<option value="piz1" selected>Burrata Parma Ham</option>
+			<option value="piz2">Burrata Parma Ham Margherita</option>
+			<option value="piz3">Burrata Anchovy Tomato</option>
+			<option value="piz4">Salmon Sashimi</option>
+			<option value="piz5">Margherita</option>
+			<option value="piz6">Smoked Cheese Seafood Spicy</option>
+		</select><br>
+		<button id="submit" type="submit">Submit</button>
+		<button id="reset" type="reset">Reset</button>
+		<img id="piz_regis" src="images/piz_regis.png" alt="pizregis">
+<!--End Select-->
+	</form>
+<!--End Text Form-->
+</body>
+<!--End Body-->
+	<script src="js/regis.js"></script>
+</html>

@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	background: url(https://images.creativemarket.com/0.1.0/ps/7353029/1820/1213/m1/fpnw/wm1/kiwikc0o9yejexpzwzylxsuy30gsti4hjy5uo9ctmct07xumbwzebvxnoipkfdqc-.jpg?1574572852&s=e825fe743ce9f7c0252aac0e13870e92) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.fieldset
+{
+	margin-top: 5px;
+	margin-left: 100px;
+	background-color: rgba(205,205,205);
+	border-radius: 1px;
+	font-family: Spartan;
+	font-size: 17px;
+	width: 600px;
+	height: auto;
+	border-style: solid 0px white;
+}
+
+form .inputBox
+{
+	margin: 30px 100px;
+	width: 400px;
+	height: 40px;
+	padding: 5px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px black solid;
+	background-color: rgba(205,205,205);
+	border-radius: 2px;
+}
+.checkbox
+{
+	width: 20px;
+	height: 20px;
+	
+	
+}
+.checkbox:hover
+{
+	cursor: pointer;
+	color: #666666;
+}
+.radiobox
+{
+	width: 15px;
+	height: 15px;
+}
+
+.radiobox:hover
+{
+	cursor: pointer;
+	
+}
+button
+{
+	border-radius: 14px;
+	background-color: #1046AA;
+	color: white;
+	font-size: 20px;
+	font-family: Spartan;
+	width: auto;
+	height: auto;
+	padding: 10px 100px;
+	margin: 10px 10px; 
+}
+button:hover
+{
+	cursor: pointer;
+	background-color: #3475EB;
+}
+#favPiz
+{
+	position: relative;
+	width: 130px;
+	height: 20px;
+	font-size: 14px;
+}
+select
+{
+	cursor: pointer;
+	width: 100px;
+}
+
+#firstname, #lastname
+{
+	width: 195px;
+	height: auto;
+	padding: 5px;
+	margin-top: 15px;
+	margin-bottom: 8px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px black solid;
+	border-radius: 2px;
+	background-color: rgba(205,205,205);
+}
+#firstname
+{
+	float: left;
+	margin-left: 100px;
+}
+#lastname
+{
+	float: right;
+	margin-right: 100px;
+}
+nav .current
+{
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+}
+#genderBox
+{
+	padding: 10px;
+}
+::placeholder
+{
+	color: #8C8C8C;
+	font-size: 15px;
+}
+#deAdd
+{
+	border-radius: 2px;
+	margin: 15px 100px;
+	width: 400px;
+	height: 40px;
+	padding: 5px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid black;
+	background-color: rgba(205,205,205);
+}
+#deAdd::placeholder
+{
+	display: none;
+}
+.radioSec
+{
+	margin-bottom: 20px;
+	margin-left: 160px;
+}
+#creditSelect
+{
+	padding: 5px;
+}
+#fulfill
+{
+	cursor: pointer;
+}
+  .creCard
+{
+	margin: 10px;
+	padding: 10px;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.creCard + img
+{
+	cursor: pointer;
+}
+.creCard:checked + img
+{
+	outline: 2px solid #f00;
+}
+#piz_regis
+{
+	position: relative;
+	margin-left: 620px;
+	margin-top: -740px;
+	height: 110vh;
+}
+label
+{
+	color: black;
+}
+#delipickup
+{
+	margin-left: 180px;
+	padding: 10px;
+}
+#deli
+{
+	margin: 10px;
+}
+#pickup{
+	margin: 10px;
+}
+#spanCho{
+	color: black;
+	margin-left: 150px;
+	padding: 10px;
+}
+.welcome h1{
+  color: #F8F8FF;
+  font-size: 35px;
+  font-weight: normal;
+  width: 600px;
+  padding-left: 360px;
+  padding-top: 120px;
+  line-height: 0px;
+}
+.welcome h2{
+  font-family: Roboto;
+  color: white;
+  font-size: 70px;
+  width: 900px;
+  line-height: 0px;
+  padding-left: 200px;
+  padding-top: 0px;
+}
+#piz_ord
+{
+	position: relative;
+	margin-left: 620px;
+	margin-top: -978px;
+	height: 149vh;
+	width: 75vh;
+}
+#lbfavPiz
+{
+	padding: 10px;
+}
